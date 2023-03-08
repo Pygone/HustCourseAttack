@@ -1,6 +1,4 @@
 # HustCourseAttack
-Hust 抢课小助手
-# HustCourseAttack
 
 ## StartUp
 
@@ -11,11 +9,14 @@ pip install -r requirements.txt
 ```
 
 ## Start
-
+python
 ```shell
 python.exe HustCourseAttack.py [Your StuId] [Your Course File] [Your Cookie File] [Time]
 ```
-
+[Release](https://github.com/Pygone/HustCourseAttack/releases/)
+```shell
+HustCourseAttack.exe [Your StuId] [Your Course File] [Your Cookie File] [Time]
+```
 **time-format: month/day/hour/minute**
 
 ### Example
@@ -45,13 +46,12 @@ for an example now is 22:04  2023/3/8, so you should make it like **03/08/22/04*
 #### Login
 
 Login the course selection website  
-
+![Step1](https://github.com/Pygone/HustCourseAttack/blob/master/Pic/Pic1.png)
 
 #### enter in Dev zone
 
 My broswer is Edge, so i press F12 to enter in Dev zone, you can search for your way to enter in Dev zone  
 
 #### Copy Cookie
-
-
 Get in the Network zone, if there is no content, you can refresh the page to get response. And select the one with name of “getIndexInfo”,  selsct the headers column and slide down, find the row with name of “Cookie”, now you can copy the value of it. 
+![Step2](https://github.com/Pygone/HustCourseAttack/blob/master/Pic/Pic2.png)
