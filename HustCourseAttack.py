@@ -86,6 +86,9 @@ def CheckCookie(Cookie):
     if not (os.path.isfile(sys.argv[2]) and os.path.isfile(sys.argv[3])):
         logging.error("路径有误!")
         sys.exit(-1)
+    if datetime.now().hour >= 22 or datetime.now().hour <= 7:
+        logging.error("请在7-22点其间进行选课哦!")
+        sys.exit(-1)
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                       "Chrome/111.0.0.0 "
