@@ -1,6 +1,4 @@
 # HustCourseAttack
-Hust 抢课小助手
-# HustCourseAttack
 
 ## StartUp
 
@@ -11,11 +9,14 @@ pip install -r requirements.txt
 ```
 
 ## Start
-
+python
 ```shell
 python.exe HustCourseAttack.py [Your StuId] [Your Course File] [Your Cookie File] [Time]
 ```
-
+[Release](https://github.com/Pygone/HustCourseAttack/releases/)
+```shell
+HustCourseAttack.exe [Your StuId] [Your Course File] [Your Cookie File] [Time]
+```
 **time-format: month/day/hour/minute**
 
 ### Example
