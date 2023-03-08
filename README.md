@@ -30,9 +30,9 @@ You should type the command as follow:
 python.exe HustCourseAttack.py U2021XXXXX course.txt Cookie.txt 02/14/10/00
 ```
 
-Your course.txt should contain: 
-**Verilog语言:xxx**
-**CourseName:teacher**
+Your course.txt should contain:  
+**Verilog语言:xxx**  
+**CourseName:teacher**  
 
 Your Cookie.txt should contain the Cookie from the website:[本科生专业选课 (hust.edu.cn)](http://wsxk.hust.edu.cn/zyxxk/index)  
 below i will show my way to get the cookie, if you have some awesome ideas…..  
