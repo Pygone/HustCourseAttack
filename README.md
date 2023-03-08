@@ -52,6 +52,5 @@ Login the course selection website
 My broswer is Edge, so i press F12 to enter in Dev zone, you can search for your way to enter in Dev zone  
 
 #### Copy Cookie
-
-![Step2](https://github.com/Pygone/HustCourseAttack/blob/master/Pic/Pic2.png)
 Get in the Network zone, if there is no content, you can refresh the page to get response. And select the one with name of “getIndexInfo”,  selsct the headers column and slide down, find the row with name of “Cookie”, now you can copy the value of it. 
+![Step2](https://github.com/Pygone/HustCourseAttack/blob/master/Pic/Pic2.png)
